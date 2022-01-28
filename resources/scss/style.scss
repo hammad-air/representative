@@ -40,3 +40,30 @@ background: $secondary;
 
      }   
     }
+    .btn-primary{
+background: $primary ;
+transition: $smooth;
+
+&:hover{
+    border-color: $pure;
+    color: $pure;   
+    background: $primary-hover;
+     }
+}
+section.cart{
+background: $secondary;
+}
+.amount{
+    color: $primary;
+}
+
+section.login{
+    background: $secondary;
+min-height: calc(100vh-86px);
+a.forget{
+    color: $primary;
+    &:hover{
+        color: $primary-hover;
+    }
+}
+} 

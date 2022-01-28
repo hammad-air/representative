@@ -8,7 +8,7 @@ nav li:last-child a {
   background: #ff1500;
 }
 nav li:last-child a:hover {
-  background: #ff7d49;
+  background: #ff6529;
 }
 
 nav li a {
@@ -35,4 +35,27 @@ section.hero {
   background: #ff1500;
   border-color: #ffff;
   color: #ffff;
+}
+
+.btn-primary {
+  background: #ff1500;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  border-color: #ffff;
+  color: #ffff;
+  background: #ff6529;
+}
+
+section.cart {
+  background: #f8f8f8;
+}
+
+.amount {
+  color: #ff1500;
+}
+
+section.login {
+  background: #f8f8f8;
+  min-height: 100vh-;
 }
